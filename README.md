@@ -4,6 +4,7 @@ This Bulk Intent Generator was created to automatize the creation of intents for
 ## Requirements
 To run this tool, you will need Python 3 and the libraries `csv json copy codecs`. 
 The folder structure required is the same of the repository:
+
 ![Folder structure](src/folders.jpg)
 
 The intents folder must exist, the intents.csv file must have the correct structure and you need the JSON template files in the templates folder.
@@ -22,7 +23,9 @@ language = 'es'
 
 ## intents.csv Structure
 The CSV file must have this structure:
+
 ![SCV structure](src/csv.jpg)
+
 There are seven columns separated by **,** and each row it's an intent. If the information of one column includes more than one element, the internal elements are separeted by **|**.
 This is the explanation of each column:
 **name** The name of the intent
